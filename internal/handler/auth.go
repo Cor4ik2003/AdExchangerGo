@@ -13,6 +13,4 @@ func (h *Handler) SignUp(c *gin.Context) {
 		log.Fatalf("error")
 	}
 
-	id, err := h.services.Authorization.CreateUser(request)
-
 }

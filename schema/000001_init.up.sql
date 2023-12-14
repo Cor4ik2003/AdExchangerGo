@@ -10,7 +10,7 @@ CREATE TABLE Images
 (
     ImageID INT PRIMARY KEY,
     AdID INT,
-    ImageURL VARCHAR(255) NOT NULL,
+    ImageURL VARCHAR(255) NOT NULL
 );
 
 
